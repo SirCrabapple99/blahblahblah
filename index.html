@@ -2,10 +2,19 @@
 <html>
     <head>
         //erm what the sigma
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="function getRandomColor() {
+            var letters = '0123456789ABCDEF';
+            var color = '#';
+            for (var i = 0; i < 6; i++) {
+              color += letters[Math.floor(Math.random() * 16)];
+            }
+            return color;
+          }""></script>
         <style>
             @font-face { font-family: Ubuntu; src: url('Ubuntu/Ubuntu-Regular.ttf'); } 
             h1 {
-                color: blue;
+                color: getRandomColor();
                 font-family: "Ubuntu";
                 font-size: 300%;
             }
