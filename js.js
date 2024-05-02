@@ -11,3 +11,4 @@ var r = document.querySelector(':root');
 function myFunction_set() {
   r.style.setProperty('--sus');
 }
+let test = "#999999"
