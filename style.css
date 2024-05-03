@@ -8,3 +8,8 @@
                   font-size: 750%;
                   text-align: center;
               }
+              .center {
+                display: block;
+                margin-left: 100px;
+                margin-right: auto;
+                }
