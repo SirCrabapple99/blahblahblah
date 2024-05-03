@@ -1,0 +1,17 @@
+:root {
+    --idk: #00ff88; 
+  }
+              @font-face { font-family: Ubuntu; src: url('Ubuntu/Ubuntu-Regular.ttf'); } 
+              h1 {
+                  color: teal;
+                  font-family: "Ubuntu";
+                  font-size: 750%;
+                  text-align: center;
+              }
+
+              body {
+                background-image: url("img.jpeg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                filter: blur(16px);
+              }
