@@ -11,4 +11,3 @@ var r = document.querySelector(':root');
 function myFunction_set() {
   r.style.setProperty('--slate');
 }
-let test = "#999999"
