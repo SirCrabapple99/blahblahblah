@@ -1,15 +1,21 @@
 :root {
     --idk: #00ff88; 
   }
-              @font-face { font-family: Ubuntu; src: url('Ubuntu/Ubuntu-Regular.ttf'); } 
+              @font-face { font-family: UbuntuSans; src: url('Ubuntu_Sans/static/UbuntuSans-Regular.ttf'); }
+              @font-face { font-family: UbuntuSansThin; src: url('Ubuntu_Sans/static/UbuntuSans-Thin.ttf'); }
+              @font-face { font-family: UbuntuSansBold; src: url('Ubuntu_Sans/static/UbuntuSans-Bold.ttf'); } 
               h1 {
                   color: teal;
-                  font-family: "Ubuntu";
+                  font-family: "UbuntuSansThin";
                   font-size: 750%;
+                  font-
                   text-align: center;
               }
               .center {
                 display: block;
-                margin-left: 100px;
+                margin-left: auto;
                 margin-right: auto;
                 }
+              .jadav {
+                border: 5px solid seagreen
+              }
