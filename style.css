@@ -6,13 +6,14 @@
               @font-face { font-family: UbuntuSansBold; src: url('Ubuntu_Sans/static/UbuntuSans-Bold.ttf'); } 
               h1 {
                   color: slategrey;
-                  font-family: "UbuntuSansThin";
+                  font-family: "UbuntuSansBold";
                   font-size: 500%;
                   text-align: center;
+                  padding-bottom: -25px;
               }
               h2 {
                 color: slategrey;
-                font-family: "UbuntuSans";
+                font-family: "UbuntuSansBold";
                 font-size: 200%;
                 text-align: left;
                 padding-left: 15%;
@@ -23,12 +24,24 @@
                 margin-right: auto;
                 }
               .jadav {
-                border: 5px solid slategray;
+                border: 6px solid slategrey;
+                border-radius: 55px;
               }
               .hline {
-                border-bottom: 3px dashed green;
+                border-bottom: 7px dashed slategrey;
                 border-top: 0px solid white;
                 border-left: 0px solid white;
                 border-right: 0px solid white;
-                padding-top: 25px;
+                padding-top: 65px;
+              }
+              .transition {
+                background-image: linear-gradient(rgba(255,0,0,0), sandybrown);
+                height: 300px;
+              }
+              .transition2 {
+                background-color: sandybrown;
+                height: 300px;
+              }
+              body {
+                margin: 0;
               }
