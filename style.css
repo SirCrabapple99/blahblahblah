@@ -5,13 +5,13 @@
               @font-face { font-family: UbuntuSansThin; src: url('Ubuntu_Sans/static/UbuntuSans-Thin.ttf'); }
               @font-face { font-family: UbuntuSansBold; src: url('Ubuntu_Sans/static/UbuntuSans-Bold.ttf'); } 
               h1 {
-                  color: slategray;
+                  color: slategrey;
                   font-family: "UbuntuSansThin";
                   font-size: 500%;
                   text-align: center;
               }
               h2 {
-                color: slategray;
+                color: slategrey;
                 font-family: "UbuntuSans";
                 font-size: 200%;
                 text-align: left;
@@ -26,7 +26,7 @@
                 border: 5px solid slategray;
               }
               .hline {
-                border-bottom: 3px dashed slategray;
+                border-bottom: 3px dashed green;
                 border-top: 0px solid white;
                 border-left: 0px solid white;
                 border-right: 0px solid white;
