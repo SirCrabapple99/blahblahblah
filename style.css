@@ -5,11 +5,17 @@
               @font-face { font-family: UbuntuSansThin; src: url('Ubuntu_Sans/static/UbuntuSans-Thin.ttf'); }
               @font-face { font-family: UbuntuSansBold; src: url('Ubuntu_Sans/static/UbuntuSans-Bold.ttf'); } 
               h1 {
-                  color: teal;
+                  color: forestgreen;
                   font-family: "UbuntuSansThin";
-                  font-size: 750%;
-                  font-
+                  font-size: 500%;
                   text-align: center;
+              }
+              h2 {
+                color: forestgree]]=-=-;
+                font-family: "UbuntuSans";
+                font-size: 200%;
+                text-align: left;
+                padding-left: 15%;
               }
               .center {
                 display: block;
@@ -17,5 +23,12 @@
                 margin-right: auto;
                 }
               .jadav {
-                border: 5px solid seagreen
+                border: 5px solid lime;
+              }
+              .hline {
+                border-bottom: 3px dashed black;
+                border-top: 0px solid white;
+                border-left: 0px solid white;
+                border-right: 0px solid white;
+                padding-top: 25px;
               }
