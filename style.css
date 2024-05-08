@@ -1,17 +1,17 @@
 :root {
-    --idk: #00ff88; 
+    --idk: slategray; 
   }
               @font-face { font-family: UbuntuSans; src: url('Ubuntu_Sans/static/UbuntuSans-Regular.ttf'); }
               @font-face { font-family: UbuntuSansThin; src: url('Ubuntu_Sans/static/UbuntuSans-Thin.ttf'); }
               @font-face { font-family: UbuntuSansBold; src: url('Ubuntu_Sans/static/UbuntuSans-Bold.ttf'); } 
               h1 {
-                  color: forestgreen;
+                  color: slategray;
                   font-family: "UbuntuSansThin";
                   font-size: 500%;
                   text-align: center;
               }
               h2 {
-                color: forestgree]]=-=-;
+                color: slategray;
                 font-family: "UbuntuSans";
                 font-size: 200%;
                 text-align: left;
@@ -23,10 +23,10 @@
                 margin-right: auto;
                 }
               .jadav {
-                border: 5px solid lime;
+                border: 5px solid slategray;
               }
               .hline {
-                border-bottom: 3px dashed black;
+                border-bottom: 3px dashed slategray;
                 border-top: 0px solid white;
                 border-left: 0px solid white;
                 border-right: 0px solid white;
