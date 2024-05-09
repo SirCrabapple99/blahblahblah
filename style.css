@@ -6,11 +6,11 @@
               @font-face { font-family: UbuntuSansBold; src: url('Ubuntu_Sans/static/UbuntuSans-Bold.ttf'); } 
               @keyframes wave {
                 0% {
-                  transform: translateY(0%);
+                  opacity: 100%; transform: translateY(0%);
                 }
               
                 100% {
-                  transform: translateY(100%);
+                  opacity: 0%; transform: translateY(100%);
                 }
               }
               body {
@@ -50,13 +50,15 @@
               }
               .transition {
                 background-image: linear-gradient(rgba(255,0,0,0), sandybrown);
-                height: 300px;
+                height: 600px;
               }
               .transition2 {
                 background-color: sandybrown;
                 height: 300px;
               }
-              .wave{
-                animation: 4s linear 0s infinite alternate wave;
+              .waaa{
+                animation: 5s ease-in 2s infinite normal wave;
+                animation-delay: 1s;
+                z-index: 3;
               }
               
