@@ -4,6 +4,13 @@
               @font-face { font-family: UbuntuSans; src: url('Ubuntu_Sans/static/UbuntuSans-Regular.ttf'); }
               @font-face { font-family: UbuntuSansThin; src: url('Ubuntu_Sans/static/UbuntuSans-Thin.ttf'); }
               @font-face { font-family: UbuntuSansBold; src: url('Ubuntu_Sans/static/UbuntuSans-Bold.ttf'); } 
+              @keyframes wave {
+                from {transform: translatey(0%);}
+                to   {transform: translatey(-100%);}
+              }
+              body {
+                margin: 0;
+              }
               h1 {
                   color: slategrey;
                   font-family: "UbuntuSansBold";
@@ -17,6 +24,8 @@
                 font-size: 200%;
                 text-align: left;
                 padding-left: 15%;
+                z-index: 1;
+                padding-bottom: 750%;
               }
               .center {
                 display: block;
@@ -26,6 +35,7 @@
               .jadav {
                 border: 6px solid slategrey;
                 border-radius: 55px;
+                animation: 4s linear 0s infinite alternate wave;
               }
               .hline {
                 border-bottom: 7px dashed slategrey;
@@ -42,6 +52,6 @@
                 background-color: sandybrown;
                 height: 300px;
               }
-              body {
-                margin: 0;
+              .wave {
+                animation: 4s linear 0s infinite alternate wave;
               }
