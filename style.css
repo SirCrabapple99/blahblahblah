@@ -40,7 +40,6 @@
               .jadav {
                 border: 6px solid slategrey;
                 border-radius: 55px;
-                animation: 4s linear 0s infinite alternate wave;
               }
               .hline {
                 border-bottom: 7px dashed slategrey;
@@ -58,9 +57,6 @@
                 height: 300px;
               }
               .wave{
-                animation-name: wave;
-                animation-duration: 4s;
-                width: "100%";
-                height: "250px";
+                animation: 4s linear 0s infinite alternate wave;
               }
               
