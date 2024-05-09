@@ -4,13 +4,13 @@
               @font-face { font-family: UbuntuSans; src: url('Ubuntu_Sans/static/UbuntuSans-Regular.ttf'); }
               @font-face { font-family: UbuntuSansThin; src: url('Ubuntu_Sans/static/UbuntuSans-Thin.ttf'); }
               @font-face { font-family: UbuntuSansBold; src: url('Ubuntu_Sans/static/UbuntuSans-Bold.ttf'); } 
-              @keyframes slidein {
+              @keyframes wave {
                 0% {
-                  transform: translateX(0%);
+                  transform: translateY(0%);
                 }
               
                 100% {
-                  transform: translateX(100%);
+                  transform: translateY(100%);
                 }
               }
               body {
@@ -57,11 +57,8 @@
                 background-color: sandybrown;
                 height: 300px;
               }
-              .waaa{
-                background-color: red;
-                width: 100px;
-                height: 100px;
-                animation-name: slidein;
+              .wave{
+                animation-name: wave;
                 animation-duration: 4s;
               }
               
