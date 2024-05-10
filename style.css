@@ -10,7 +10,7 @@
                 }
               
                 100% {
-                  opacity: 0%; transform: translateY(100%);
+                  opacity: 0%; transform: translateY(50%);
                 }
               }
               body {
@@ -57,7 +57,7 @@
                 height: 300px;
               }
               .waaa{
-                animation: 5s ease-in 2s infinite normal wave;
+                animation: 5s ease-in 1s infinite normal wave;
                 animation-delay: 1s;
                 z-index: 3;
               }
