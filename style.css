@@ -109,15 +109,3 @@
                  padding-left: 15%;
                  z-index: 1;
                }
-               .collapsible {
-                background-color: #777;
-                color: white;
-                cursor: pointer;
-                padding: 18px;
-                width: 100%;
-                border: none;
-                text-align: left;
-                outline: none;
-                font-size: 15px;
-              }
-              
