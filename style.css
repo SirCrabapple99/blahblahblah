@@ -100,7 +100,6 @@
               .award {
                 border: 6px solid #90A955;
                 border-radius: 50px;
-                transition: .5s ease-out;
                }
               h6 {
                  color: #90A955;
