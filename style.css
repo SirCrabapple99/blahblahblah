@@ -17,16 +17,17 @@
               body {
                 margin: 0;
                 overflow-y: scroll;
+                background-color: #ECF39E
               }
               h1 {
-                  color: slategrey;
+                  color: #90A955;
                   font-family: "UbuntuSansBold";
                   font-size: 500%;
                   text-align: center;
                   padding-bottom: -25px;
               }
               h2 {
-                color: slategrey;
+                color: #0E6BA8;
                 font-family: "UbuntuSansBold";
                 font-size: 200%;
                 text-align: left;
@@ -36,7 +37,7 @@
                 
               }
               h3 {
-                color: coral;
+                color: #0E6BA8;
                 font-family: "UbuntuSansBold";
                 font-size: 200%;
                 text-align: left;
@@ -45,7 +46,7 @@
                 
               }
               h4 {
-                color: cyan;
+                color: #90A955;
                 font-family: "UbuntuSansBold";
                 font-size: 200%;
                 text-align: left;
@@ -55,13 +56,12 @@
               }
               h5
               {
-                color: coral;
+                color: #90A955;
                 font-family: "UbuntuSansBold";
                 font-size: 200%;
                 text-align: left;
                 padding-left: 15%;
-                z-index: 1;
-                
+                z-index: 1;  
               }
               .center {
                 display: block;
@@ -69,14 +69,14 @@
                 margin-right: auto;
                 }
               .jadav {
-                border: 6px solid slategrey;
-                border-radius: 55px;
+                border: 6px solid #90A955;
+                border-radius: 50px;
               }
               .hline {
-                border-bottom: 7px dashed slategrey;
-                border-top: 0px solid white;
-                border-left: 0px solid white;
-                border-right: 0px solid white;
+                border-bottom: 7px solid rgba(255,0,0,0);
+                border-top: 0px solid   rgba(255,0,0,0);
+                border-left: 0px solid  rgba(255,0,0,0);
+                border-right: 0px solid rgba(255,0,0,0);
                 padding-top: 65px;
               }
               .transition {
@@ -94,7 +94,27 @@
                 z-index: 3;
               }
               .centralpark {
-                border-radius: 25px;
-                border: 6px solid forestgreen;
+                border-radius: 50px;
+                border: 6px solid #90A955;
               }
-              
+              .award {
+                border: 6px solid #90A955;
+                border-radius: 50px;
+                max-height: 0;
+                transition: max-height .5s ease-out;
+               }
+              h6 {
+                 color: #90A955;
+                 font-family: "UbuntuSansBold";
+                 font-size: 200%;
+                 text-align: left;
+                 padding-left: 15%;
+                 padding-top: 500px
+                 z-index: 1;
+               }
+               a {
+                 text-decoration: none;
+               }
+               ul {
+                 list-style: none;
+               }
