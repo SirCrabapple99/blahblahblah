@@ -118,8 +118,11 @@
                 color: #90A955;
                 border: 6px solid #90A955;
                 background-color: floralwhite;
-                font-size: 50px;
+                font-size: 35px;
                 border-radius: 360px;
                 margin-top: 50px;
+                text-align: justify;
                }
-               
+               .disable-dbl-tap-zoom {
+                touch-action: manipulation;
+               }
