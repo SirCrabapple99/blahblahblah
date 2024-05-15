@@ -102,7 +102,7 @@
               .award {
                 border: 6px solid #90A955;
                 border-radius: 50px;
-               }
+              }
               h6 {
                  color: #90A955;
                  font-family: "UbuntuSansBold";
@@ -110,7 +110,7 @@
                  text-align: center;
                  z-index: 1;
                  max-width: 75%;
-               }
+              }
                .clickerthing {
                 width: 150px;
                 height: 150px;
@@ -122,7 +122,28 @@
                 border-radius: 360px;
                 margin-top: 50px;
                 text-align: center;
-               }
+              }
                .disable-dbl-tap-zoom {
                 touch-action: manipulation;
-               }
+              }
+              .collapsible {
+                background-color: #eee;
+                color: #444;
+                cursor: pointer;
+                padding: 18px;
+                width: 100%;
+                border: none;
+                text-align: left;
+                outline: none;
+                font-size: 15px;
+              }
+              .content {
+                padding: 0 18px;
+                background-color: white;
+                max-height: 0;
+                overflow: hidden;
+                transition: max-height 0.2s ease-out;
+              }
+              .active, .collapsible:hover {
+                background-color: #ccc;
+              }

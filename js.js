@@ -24,3 +24,17 @@ function click1234() {
         treesLeft -= 0.001;
         document.getElementById("forestcount").innerHTML = Math.round(treesLeft * 100) / 100;
     }
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+    
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.maxHeight){
+          content.style.maxHeight = null;
+        } else {
+          content.style.maxHeight = content.scrollHeight + "px";
+        }
+      });
+    }
