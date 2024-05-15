@@ -4,6 +4,7 @@
               @font-face { font-family: UbuntuSans; src: url('Ubuntu_Sans/static/UbuntuSans-Regular.ttf'); }
               @font-face { font-family: UbuntuSansThin; src: url('Ubuntu_Sans/static/UbuntuSans-Thin.ttf'); }
               @font-face { font-family: UbuntuSansBold; src: url('Ubuntu_Sans/static/UbuntuSans-Bold.ttf'); } 
+              @font-face { font-family: UbuntuSansItalic; src: url('Ubuntu_Sans/static/UbuntuSans-Italic.ttf'); } 
               @keyframes wave {
                 0% {
                   opacity: 0%; transform: translateY(0%);
@@ -133,10 +134,7 @@
                 font-family: "UbuntuSansBold";
                 overflow: hidden;
                 transition: max-height 0.2s ease-out;
-                font-size: 35px;
+                font-size: 30px;
                 color: #90A955;
                 max-width: 60%;
-              }
-              .newspace {
-                padding-top: 50px;
               }
