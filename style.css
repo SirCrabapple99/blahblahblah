@@ -25,7 +25,6 @@
                   font-size: 500%;
                   text-align: center;
                   padding-bottom: -25px;
-                  padding-left: 50px;
               }
               h2 {
                 color: #0E6BA8;
@@ -35,7 +34,6 @@
                 max-width: 60%;
                 z-index: 1;
                 padding-bottom: 100px;
-                padding-left: 50px;
                 
               }
               h3 {
@@ -83,7 +81,7 @@
               }
               .transition {
                 background-image: linear-gradient(rgba(255,0,0,0), sandybrown);
-                height: 400px;
+                height: 100px;
               }
               .transition2 {
                 background-image: linear-gradient(sandybrown 50%, rgba(255,0,0,0));
@@ -98,7 +96,7 @@
               .centralpark {
                 border-radius: 50px;
                 border: 6px solid #90A955;
-              }
+              } 
               .award {
                 border: 6px solid #90A955;
                 border-radius: 50px;
@@ -127,23 +125,18 @@
                 touch-action: manipulation;
               }
               .collapsible {
-                background-color: #eee;
-                color: #444;
-                cursor: pointer;
-                padding: 18px;
-                width: 100%;
-                border: none;
-                text-align: left;
-                outline: none;
-                font-size: 15px;
               }
               .content {
-                padding: 0 18px;
-                background-color: white;
+                background-color: rgba(255,0,0,0);
                 max-height: 0;
+                text-align: center;
+                font-family: "UbuntuSansBold";
                 overflow: hidden;
                 transition: max-height 0.2s ease-out;
+                font-size: 35px;
+                color: #90A955;
+                max-width: 60%;
               }
-              .active, .collapsible:hover {
-                background-color: #ccc;
+              .newspace {
+                
               }

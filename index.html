@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-        <script src="js.js"></script>
+        
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="node_modules/animate.css/animate.css">
         <style></style>
@@ -10,7 +9,7 @@
     <meta name="viewport" content="width=device-width, user-scalable=no">
     <body>
             <div class="container">
-              <h1 class=" center animate__animated animate__fadeInUp">Jadav Payeng</h1>
+              <h1 class="center animate__animated animate__fadeInUp">Jadav Payeng</h1>
                 <p></p>
                 <img class="jadav animate__animated animate__fadeInDown center" src="Jadav_Payeng.png" style="width:300px;"></img>
                 <div class="hline"></div>
@@ -23,20 +22,24 @@
                 </div>
                 <div class="transition2"></div>
                 <h5 class="center">30 years later, the forest is around 1300 acres large.</h5>
-                <img src="centralpark.jpeg" class="centralpark center" width="50%" height="50%"></img>
+                <img src="centralpark.jpeg" type="button" class="centralpark collapsible center" width="50%" height="50%"></img>
+                <div class="center content">
+                    <p>With the Molai Forest spanning around 1350 acres, it is approximately 1.6 times larger than Manhattans 842
+                       square acre Central Park in New York!
+                    </p>
+                </div>
                 <h5 class="center">That's around 1.6 times larger than Central Park!</h5>
                 <div class="space"></div>
-                <h6 class="center">In 2016, Jadav recieved the Padma Shri award, the fourth highest reward
+                <h6 margin-top="-150px"class="center">In 2016, Jadav recieved the Padma Shri award, the fourth highest reward
                     that citizens can recieve in india.</h6>
                 <img src="padmashri.jpeg" class="award center"><img>
                 <h6 class="center">If every time you tapped this button was a tree, it would take you around <b id="forestcount">13.50</b>k more clicks until you would
                     reach the amount of trees Jadav Payeng hand planted in the molai forest.</h6>
                 <button class="disable-dbl-tap-zoom center clickerthing" onclick="click1234()"><b id="clicks">0</b><b id="thousands"></b></b></button>
-                <button type="button" class="collapsible">Open Collapsible</button>
-                <div class="content">
-                    <p>Lorem ipsum...</p>
-                </div>
-                </div>           
+                <div class="newspace"></div>
+                </div>     
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+                <script src="js.js"></script>     
         </body>
     </meta>
 </html>
