@@ -110,6 +110,17 @@
                  z-index: 1;
                  max-width: 75%;
               }
+              .qrcode {
+                margin-bottom: 35px;
+              }
+              .donate {
+                color: #90A955;
+                font-family: "UbuntuSansBold";
+                font-size: 200%;
+                text-align: center;
+                z-index: 1;
+                max-width: 75%;
+             }
                .clickerthing {
                 width: 150px;
                 height: 150px;
