@@ -125,8 +125,6 @@
                .disable-dbl-tap-zoom {
                 touch-action: manipulation;
               }
-              .collapsible {
-              }
               .content {
                 background-color: rgba(255,0,0,0);
                 max-height: 0;
