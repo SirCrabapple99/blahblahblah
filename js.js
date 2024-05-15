@@ -22,5 +22,5 @@ function click1234() {
         }
         console.log("4");
         treesLeft -= 0.001;
-        document.getElementById("forestcount").innerHTML = Math.round(treesLeft * 10) / 10;
+        document.getElementById("forestcount").innerHTML = Math.round(treesLeft * 100) / 100;
     }
